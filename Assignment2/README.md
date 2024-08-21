@@ -8,8 +8,8 @@
 
 本次作业有如下三种提交方式：
 
-1. 将自己的页面部署在GitHub的静态页面托管服务上，将项目地址添加到文档中。具体流程见[附录](#GitHub静态页面托管服务)。（推荐）
-2. 将自己的页面部署在Vercel或者Heroku等云服务上，将项目地址添加到文档中。具体流程请参考官方文档。
+1. 将自己的页面部署在 GitHub 的静态页面托管服务上，将项目地址添加到文档中。具体流程见[附录](#GitHub静态页面托管服务)。（推荐）
+2. 将自己的页面部署在 Vercel 或者 Heroku 等云服务上，将项目地址添加到文档中。具体流程请参考官方文档。
 3. 将自己的页面文件夹按照`网站名称-部门-姓名`的格式提交到`Assignment2`文件夹下。
 
 ## Tips
@@ -40,6 +40,7 @@
 3. 在仓库的设置页面中，找到`Pages`选项，将`Source`设置为`Deploy from a  branch`，`branch`设置为你的项目文件所在的分支（一般为`master`），`folder`选择`/(root)`，然后点击`Save`。这样你的网站就会被部署在`https://<username>.github.io`这个地址上了。
 4. 等待一段时间，然后访问`https://<username>.github.io`，确认你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://<username>.github.io)`，注意链接中的`<username>`应该替换为你的GitHub用户名。
 5. 如果你已经有了一个`<username>.github.io`的仓库，或者因为其他原因无法采用这种方式提交，可以采用其余的提交方式。
+6. 示例：<https://github.com/Yelp/yelp.github.io>
 
 ### Vercel 或其他云服务
 
