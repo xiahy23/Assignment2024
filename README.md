@@ -1,6 +1,6 @@
 ## Assignment2024
 
-大家好！欢迎参加 ASTA2024 暑期技术培训，该仓库用于提交暑期培训的作业。
+大家好！欢迎参加 ASTA2024 暑期技术培训，该仓库用于提交暑期培训的作业。所有暑培资料链接： [https://cloud.tsinghua.edu.cn/d/79c394f05d4b425bb34c/](https://cloud.tsinghua.edu.cn/d/79c394f05d4b425bb34c/)
 
 ### 提交方法
 
