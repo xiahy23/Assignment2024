@@ -2,7 +2,7 @@
 
 ## 作业要求
 
-根据自己的掌握程度、空闲时间和兴趣，在讲义末尾给出的项目中选择一个完成。为了鼓励大家多做尝试，作业并没有给出具体的页面细节，也不限定页面结构和数量，具体的样式和交互效果由同学们自己决定。如果你有其他想法，也可以自己设计一个页面并完成。
+请根据自己的掌握程度、空闲时间和兴趣爱好，在[讲义](https://cloud.tsinghua.edu.cn/d/79c394f05d4b425bb34c/files/?p=%2F%E5%89%8D%E7%AB%AF%2F%E6%9A%91%E5%9F%B9%E8%AE%B2%E4%B9%89-%E5%89%8D%E7%AB%AF.pdf)末尾给出的项目中选择一个完成。为了鼓励大家多做尝试，作业并没有给出具体的页面细节，也不限定页面结构和数量，具体的样式和交互效果由同学们自己决定。如果你有其他想法，也可以自己设计一个页面并完成。
 
 ## 提交方式
 
@@ -23,7 +23,7 @@
 
 ### GitHub静态页面托管服务
 
-1. 在GitHub上创建一个新的**Public**仓库，仓库名为`<username>.github.io`，其中`<username>`为你的GitHub用户名。例如，我的GitHub用户名是`zhangsan`，那么我创建的仓库名就是`zhangsan.github.io`。
+1. 在GitHub上创建一个名为`<username>.github.io`的**Public**仓库，其中`<username>`为你的GitHub用户名。例如，我的GitHub用户名是`zhangsan`，那么我创建的仓库名就是`zhangsan.github.io`。
 2. 将你的项目文件夹上传到这个仓库中。注意，你的项目文件夹中必须包含一个名为`index.html`的文件，这个文件将作为你的网站的首页。仓库中的文件结构应该如下所示：
    ```
    zhangsan.github.io
@@ -34,21 +34,21 @@
    └── ...
    ```
    **注意**：
-   1. index.html应该在这个仓库的根目录下，而不是在一个文件夹中。
+   1. index.html应该在这个仓库的**根目录**下，而不是在一个文件夹中。换句话说，当你在GitHub上打开这个仓库时，你应该能够直接看到`index.html`文件，而不是一个名为`<username>.github.io`或者其他什么的文件夹。
    2. 只有index.html文件是必须的，其他文件可以根据你的需要添加。
-   3. 请确保只将最终的项目文件夹上传到仓库中，如果你是通过`create-react-app`等工具创建的项目，请只提交`build`文件夹中的内容。
-3. 在仓库的设置页面中，找到`GitHub Pages`选项，将`Source`设置为`master branch`，然后点击`Save`。这样你的网站就会被部署在`https://<username>.github.io`这个地址上了。
-3. 等待一段时间，然后访问`https://<username>.github.io`，你的网站就会被部署在这个地址上了。确认你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://<username>.github.io)`，注意链接中的`<username>`应该替换为你的GitHub用户名。
-4. 如果你已经有了一个`<username>.github.io`的仓库，或者因为其他原因无法采用这种方式提交，可以采用其余的提交方式。
+   3. 请确保只将最终的项目文件夹上传到仓库中，如果你是通过`create-react-app`等工具创建的项目，请只提交生成的`build`文件夹中的内容。（如果你就是想用git管理**所有的**项目文件，那么可以将`build`文件夹重命名为`docs`后提交所有文件，并在`仓库` - `设置` - `Pages`中将部署文件夹修改为`/docs`）
+3. 在仓库的设置页面中，找到`Pages`选项，将`Source`设置为`Deploy from a  branch`，`branch`设置为你的项目文件所在的分支（一般为`master`），`folder`选择`/(root)`，然后点击`Save`。这样你的网站就会被部署在`https://<username>.github.io`这个地址上了。
+4. 等待一段时间，然后访问`https://<username>.github.io`，确认你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://<username>.github.io)`，注意链接中的`<username>`应该替换为你的GitHub用户名。
+5. 如果你已经有了一个`<username>.github.io`的仓库，或者因为其他原因无法采用这种方式提交，可以采用其余的提交方式。
 
 ### Vercel 或其他云服务
 
-1. 具体流程请参考官方文档。
+1. 由于各家云服务厂商操作流程不一，因此具体流程请参考官方文档。
 2. 确保你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://your-website-url)`，注意链接中的`https://your-website-url`应该替换为你的网站地址。
 
 ### 提交文件夹
 
-如果你选择将项目文件夹提交到此文件夹下，请确保你的文件夹名称符合`网站名称-部门-姓名`的格式。例如，如果你的项目名称是`弹弹球`，部门是`软件部`，姓名是`张三`，那么你的文件夹名称应该是`弹弹球-软件部-张三`。你的文件夹结构应该类似于下面这样：
+如果你选择将项目文件夹提交到此文件夹（`Assignment2`）下，请确保你的文件夹名称符合`网站名称-部门-姓名`的格式。例如，如果你的项目名称是`弹弹球`，部门是`软件部`，姓名是`张三`，那么你的文件夹名称应该是`弹弹球-软件部-张三`。你的文件夹结构应该类似于下面这样：
 ```
 弹弹球-软件部-张三
 ├── index.html
@@ -62,5 +62,6 @@
 
 1. [GitHub Pages](https://pages.github.com/)
 2. [Vercel](https://vercel.com/)
-3. [Heroku](https://www.heroku.com/)
-4. [Google](https://www.google.com/)
+3. [Netlify](https://www.netlify.com/)
+4. [Heroku](https://www.heroku.com/)
+5. [Google](https://www.google.com/)
