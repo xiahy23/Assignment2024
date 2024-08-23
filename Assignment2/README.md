@@ -37,15 +37,15 @@
    1. index.html应该在这个仓库的**根目录**下，而不是在一个文件夹中。换句话说，当你在GitHub上打开这个仓库时，你应该能够直接看到`index.html`文件，而不是一个名为`<username>.github.io`或者其他什么的文件夹。
    2. 只有index.html文件是必须的，其他文件可以根据你的需要添加。
    3. 请确保只将最终的项目文件夹上传到仓库中，如果你是通过`create-react-app`等工具创建的项目，请只提交生成的`build`文件夹中的内容。（如果你就是想用git管理**所有的**项目文件，那么可以将`build`文件夹重命名为`docs`后提交所有文件，并在`仓库` - `设置` - `Pages`中将部署文件夹修改为`/docs`）
-3. 在仓库的设置页面中，找到`Pages`选项，将`Source`设置为`Deploy from a  branch`，`branch`设置为你的项目文件所在的分支（一般为`master`），`folder`选择`/(root)`，然后点击`Save`。这样你的网站就会被部署在`https://<username>.github.io`这个地址上了。
-4. 等待一段时间，然后访问`https://<username>.github.io`，确认你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://<username>.github.io)`，注意链接中的`<username>`应该替换为你的GitHub用户名。
+3. 在仓库的设置页面中，找到`Pages`选项，将`Source`设置为`Deploy from a  branch`，`branch`设置为你的项目文件所在的分支（一般为`master`或`main`），`folder`选择`/(root)`，然后点击`Save`。这样你的网站就会被部署在`https://<username>.github.io/`这个地址上了。
+4. 等待一段时间，然后访问`https://<username>.github.io/`，确认你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://<username>.github.io/)`，注意链接中的`<username>`应该替换为你的GitHub用户名。
 5. 如果你已经有了一个`<username>.github.io`的仓库，或者因为其他原因无法采用这种方式提交，可以采用其余的提交方式。
 6. 示例：<https://github.com/Yelp/yelp.github.io>
 
 ### Vercel 或其他云服务
 
 1. 由于各家云服务厂商操作流程不一，因此具体流程请参考官方文档。
-2. 确保你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://your-website-url)`，注意链接中的`https://your-website-url`应该替换为你的网站地址。
+2. 确保你的网站可以正常访问之后，在`AssignmentList.md`的末尾添加一行，内容为`- [项目名称-部门-姓名](https://your-website-url/)`，注意链接中的`https://your-website-url/`应该替换为你的网站地址。
 
 ### 提交文件夹
 
