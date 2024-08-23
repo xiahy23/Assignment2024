@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Timer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Simple Counter">
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+</head>
+
+<body>
+<h1>Simple Timer</h1>
+
+<div id="timer">00:00:00</div><br>
+
+<div id="errorDisplay" class="error-message"></div><br>
+<button id="DynamicButton" onclick="changeButtonText()">Countup</button><br>
+<input type="number" id="hours" placeholder="Hours" min="0" max="23">
+<input type="number" id="minutes" placeholder="Minutes" min="0" max="59">
+<input type="number" id="seconds" placeholder="Seconds" min="0" max="59"><br>
+
+<button onclick="setTimer()">SetTime</button>
+<button id="DynamicStart" onclick="StartAndPause()">Start</button>
+<button onclick="resetTimer()">Reset</button>
+
+</body>
+</html>
