@@ -1,0 +1,35 @@
+name: build
+
+on:
+  push:
+    paths:
+      - .github/workflows/build.yml
+      - src/**
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-src:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: xmake-io/github-action-setup-xmake@v1
+
+      - run: |
+          xmake repo -u -y
+        working-directory: src
+
+      - run: |
+          xmake f -m release -v -y
+        working-directory: src
+
+      - run: |
+          xmake -v -y
+        working-directory: src
+
+      - uses: actions/upload-artifact@v4
+        with:
+          context: src

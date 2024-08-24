@@ -1,0 +1,5 @@
+django与flask异同：
+相同点：都是Python Web框架，都支持快速开发，都提供了模板引擎来生成动态HTML页面。
+不同点：django提供了大量内置功能而flask只提供核心功能，django的扩展通常通过内置功能或第三方应用来实现，这些应用需要集成到django项目中，而flask的扩展通常是独立的库，开发者可以按需引入。
+适用场景：
+django适用于构建大型、复杂的Web框架而flask适用于小型Web应用。
