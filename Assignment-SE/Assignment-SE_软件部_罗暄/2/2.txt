@@ -1,0 +1,2 @@
+1.Position.cs中Normalize函数，如果x,y是两个很小的数，(x,y)=(1e-200,1e-200)，则Normalize后会变为(inf,inf)，Normalize失败；
+2.Weapon.cs中GetBulletDirections函数中用到了Normalize函数，向距离自己很近很近的地方打枪时会传入inf。
