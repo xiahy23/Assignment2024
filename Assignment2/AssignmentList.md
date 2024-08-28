@@ -9,3 +9,4 @@
 - [计时器 - 硬件部 - 谢嘉晟](https://jayson239.github.io/)
 - [个人简介/图片画廊 - 学创部 - 李语轩](https://xuan03-thu.github.io/)
 - [任务管理器 - 硬件部- 朱昊东](https://tendourisu.github.io/Schedule_Manager/)
+- [计算器-硬件部-夏弘宇](https://xiahy23.github.io/)
