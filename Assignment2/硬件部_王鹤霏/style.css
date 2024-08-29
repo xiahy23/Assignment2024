@@ -1,0 +1,48 @@
+h1{
+    color: #8360c3;
+    font-size: 50px;
+    text-align: center;
+}
+.clock{
+    color: #2ebf91;
+    font-size: 50px;
+    text-align: center;
+}
+.div-input{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+}
+.display-board{
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    backface-visibility: visible;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+}
+.display-board h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    margin: 10px 20px 10px 20px;
+}
+.display-board.item{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 20px 5px 20px;
+    padding: 0px;
+}
+.item-value{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+    backface-visibility: hidden;
+}
