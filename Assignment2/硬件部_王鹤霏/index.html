@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+        <meta charset="utf-8">
+        <meta name="description" content="some description">
+        <meta name="keywords" content="whf,mainpage">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Online TODO</h1>
+        <p id="clock" class="clock">loading...</p>
+        <div id="mainpage">
+            <div id="div-input" class="div-input">
+                <input type="text" id="input-todo" placeholder="What needs to be done?">
+                <button id="btn-add">+</button>
+            </div>
+                <div id="div-todo" class="display-board">
+                <h2 id="div-todo-title">Todo list</h2>
+                <ul id="list-todo"></ul>
+            </div>
+            <div id="div-todo-done" class="display-board">
+                <h2 id="div-todo-done-title">Done list</h2>
+                <ul id="list-done"></ul>
+            </div>
+        </div>
+        <script src="todoScript.js" type="text/javascript"></script>
+    </body>
+</html>

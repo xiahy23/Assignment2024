@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 简易计算器 </title>
+        <meta charset="utf-8">
+        <meta name="description" content="简易计算器">
+        <link rel="stylesheet" href="style1.css">
+        <script src="calculaterscript.js"></script>
+    </head>
+    <body>
+        <div class = "main">
+            <h1>简易计算器</h1>
+        <form name="form">
+            <input class="textview" name="textview">
+        </form>
+        <table>
+            <tr>
+                <td><input class="button" value="C" onclick="Mclean()"></td>
+                <td><input class="button" value="<" onclick="back()"></td>
+                <td><input class="button" value="/" onclick="insert('/')"></td>
+                <td><input class="button" value="x" onclick="insert('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" value="7" onclick="insert('7')"></td>
+                <td><input class="button" value="8" onclick="insert('8')"></td>
+                <td><input class="button" value="9" onclick="insert('9')"></td>
+                <td><input class="button" value="-" onclick="insert('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" value="4" onclick="insert('4')"></td>
+                <td><input class="button" value="5" onclick="insert('5')"></td>
+                <td><input class="button" value="6" onclick="insert('6')"></td>
+                <td><input class="button" value="+" onclick="insert('+')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" value="1" onclick="insert('1')"></td>
+                <td><input class="button" value="2" onclick="insert('2')"></td>
+                <td><input class="button" value="3" onclick="insert('3')"></td>
+                <td><input class="button" value="=" onclick="equal()"></td>
+            </tr>
+            <tr>
+                <td><input class="button" value="0" onclick="insert('0')"></td>
+                <td><input class="button" value="." onclick="insert('.')"></td>
+                <td><input class="button" value="(" onclick="insert('(')"></td>
+                <td><input class="button" value=")" onclick="insert(')')"></td>
+        </table>
+        </div>
+    </body>
+</html>
